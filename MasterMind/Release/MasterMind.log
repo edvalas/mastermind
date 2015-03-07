@@ -1,0 +1,44 @@
+﻿Build started 04/01/2015 17:02:34.
+     1>Project "E:\year 2\procedural programing\MasterMind\MasterMind\MasterMind.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\MasterMind.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\MasterMind.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt functions.c Mastermind.c menu.c
+         functions.c
+     1>functions.c(30): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+     1>functions.c(59): warning C4013: '_getch' undefined; assuming extern returning int
+     1>functions.c(94): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+     1>functions.c(167): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+         Mastermind.c
+     1>Mastermind.c(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+     1>Mastermind.c(18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+     1>Mastermind.c(65): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Mastermind.c(117): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Mastermind.c(136): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         menu.c
+     1>menu.c(18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\year 2\procedural programing\MasterMind\Release\MasterMind.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MasterMind.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\year 2\procedural programing\MasterMind\Release\MasterMind.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\year 2\procedural programing\MasterMind\Release\MasterMind.lib" /MACHINE:X86 Release\functions.obj
+         Release\Mastermind.obj
+         Release\menu.obj
+         Generating code
+         Finished generating code
+         MasterMind.vcxproj -> E:\year 2\procedural programing\MasterMind\Release\MasterMind.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\year 2\procedural programing\MasterMind\Release\MasterMind.exe;#1" /manifest Release\MasterMind.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MasterMind.unsuccessfulbuild".
+         Touching "Release\MasterMind.lastbuildstate".
+     1>Done Building Project "E:\year 2\procedural programing\MasterMind\MasterMind\MasterMind.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.89
